@@ -1,7 +1,6 @@
 // GET /quizes/question
 exportss.question=function(req,res){
  res.render('quizes/question',{pregunta:'Capital de Italia'});
- }
 };
 //GET /quizes/answer
 exports.answer=function(req,res){
@@ -12,6 +11,10 @@ exports.answer=function(req,res){
 	}
 };
 
+//GET /author
+exports.author=function(req,res){
+		res.render('author',{author:'Antonio Puentedura'});
+};
 
 
 
